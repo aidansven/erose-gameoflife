@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, verdana, sans-serif;
+  cursor: default;
+  background-color: whitesmoke;
+}
+
+#game-card {
+  width: 600px;
+  padding: 5px;
+  margin: 5px auto;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.center{
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 11px;
+}
+#title {
+  text-align: center;
+  font-family: "bungee inline", verdana, serif;
+}
+.tile {
+  width: 10px; height: 10px;
+  background-color: black;
+}
+.alive {
+  background-color: yellow;
+}
+
+#board {
+  width: 300px;
+  display: flex;
+  margin: 10px auto;
+}
+button {
+  margin: 3px;
+  background-color: #6495ed;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px;
+}
+button:hover {
+  background-color: #84a5fd;
+}
+#btn-row {
+  text-align: center;
+}
